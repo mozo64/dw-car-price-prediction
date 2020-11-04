@@ -12,12 +12,8 @@
 *.vcf
 *.xml
 *.json
-<<<<<<< HEAD
 *.h5
 *.tmp
-=======
-*.5h
->>>>>>> 2ac2f7a4b4bfd6ec5c2eb804afd6c1d24403cc75
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
