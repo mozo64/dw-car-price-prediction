@@ -1,5 +1,5 @@
 # dw-car-price-prediction
-## Readme v1.3
+## Readme v1.4
 
 Zadanie konkursowe na https://www.kaggle.com/c/dw-car-price-prediction/data
 
@@ -22,7 +22,8 @@ Spróbowałem też zamienić adres na wspołrzędne geograficzne. Zmienne wchodz
 
 6. modelowane_nowy_start_2.ipynb - dalsz częsć przepisywania FE + wyciagniecie kilku paramrów z nr VIN. 
 
-## Teraz warto myślę zapoznać się z plikami mozo2.py i mozo.py. To helpery. Podana kolejność wynika z tego, że plik 2 jest bardziej dojrzaly. 
+## Helper
+Teraz warto myślę zapoznać się z plikami mozo2.py i mozo.py. To helpery. Podana kolejność wynika z tego, że plik 2 jest bardziej dojrzaly. 
 1. train_and_submit : zapisuje model w wybranym katalogu, z nazwa i opisem.
 Jesli ustawisz param learning_curve, to ponadto wrzuci wykres do pliku. 
 * kaggle_min - automatycznie wrzuci na kaggle - w opisie liczba zmiennych i same zmienne posortowane alfabetycznie + hiperparametry i opcjonalny opis.  
