@@ -86,6 +86,7 @@ Jest dość przypadkowy, zanim jeszcze zacząłem na dobre sprawdzanie ważnosci
 - Nie zdążylem opracować powtórzeń ogłoszen (niektóre byly ponawiane)
 - Mialem jeszcze pomysl z predykcją binu, w ktortym powinna być cena, żeby ograniczyć zbyt niskie / zbyt wysokie predykcje. Nie wiem, czy to w ogóle dobry kierunek. 
 - Warto szybko iterować i wrzucać próby na kaggla
+- Nie dopracxoywwac FE zanim zgrubsza się nie sprawdzi, czy cecha ma sens!
 - Zdaje sobie sprawę że model pracy był prymitywny wręcz brutalny, ale dużo się nauczyłem wyciągając wnioski po. Znalazlem bład z przypadkowym modelem. Nie jestem programistą Pythona więc też cenne doświadczenie. 
 
 
