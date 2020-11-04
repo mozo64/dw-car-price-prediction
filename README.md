@@ -33,6 +33,7 @@ Wyniki z obrazkami są w największej ilości tutaj: ==dw-car-price-prediction/o
 2. print_plots_by_type : ciekawe wykresy ze wzgl na cene, mozna ogl w notebokach
 
 mozo.py:
+
 3. mutate_rand_feature - o tym potem
 
 4. merge_with_features - bylo przydatne jak osobno zapisywalem train i test, potem od tego odszdlem, Pozwalalo wczytywac tylko nowo ododane kolumny z CSV (w pliku wynikowym bylo  tylko car_id i nowe zmienne). 
