@@ -27,6 +27,7 @@ Spróbowałem też zamienić adres na wspołrzędne geograficzne. Zmienne wchodz
 Jesli ustawisz param learning_curve, to ponadto wrzuci wykres do pliku. 
 * kaggle_min - automatycznie wrzuci na kaggle - w opisie liczba zmiennych i same zmienne posortowane alfabetycznie + hiperparametry i opcjonalny opis.  
 * add_model_column_min - eksperymentowalem z modelami od progonozy na 70% danych, mozna od razu zapisac to jako kolumne danych. Ostatecznie sprowadzilo to klopoty, bo przez przypadek (recznie) zapisalem kolumne z prognoza na calym zbiorze i modele potem byly przeuczone. 
+Wyniki z obrazkami są w największej ilości tutaj: ==dw-car-price-prediction/output_model/learning_curves==
 
 2. print_plots_by_type : ciekawe wykresy ze wzgl na cene, mozna ogl w notebokach
 
