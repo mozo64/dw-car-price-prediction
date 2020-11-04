@@ -1,5 +1,5 @@
 # dw-car-price-prediction
-## Readme v1.1
+## Readme v1.2
 
 Zadanie konkursowe na https://www.kaggle.com/c/dw-car-price-prediction/data
 
@@ -18,6 +18,9 @@ Spróbowałem też zamienić adres na wspołrzędne geograficzne. Zmienne wchodz
 
 4. feature_engineering_6 - tu ulepszyłem trochę ekstrakcję województw, ponieważ uwzgęldniłęm 45 największych miast w Polsce. 
 
+5. modelowane_nowy_start_1.ipynb - tutaj jest więcej FE, ponieważ wyniki FE  w 1 tygodniu byly nie najlepsze. W poprzednich notebookach wszędzie braki danych zastępowałem mediana, Teraz chciałem wyprobować -1. 
+
+6. modelowane_nowy_start_2.ipynb - dalsz częsć przepisywania FE + wyciagniecie kilku paramrów z nr VIN. 
 
 ## Teraz warto myślę zapoznać się z plikami mozo2.py i mozo.py. To helpery. Podana kolejność wynika z tego, że plik 2 jest bardziej dojrzaly. 
 1. train_and_submit : zapisuje model w wybranym katalogu, z nazwa i opisem.
@@ -33,25 +36,26 @@ mozo.py:
 4. merge_with_features - bylo przydatne jak osobno zapisywalem train i test, potem od tego odszdlem, Pozwalalo wczytywac tylko nowo ododane kolumny z CSV (w pliku wynikowym bylo  tylko car_id i nowe zmienne). 
 
 5. num_to_range_categories : zmienna numeryczna na biny 
- 
+
+6. W notebooku modelowane_nowy_start_1.ipynb jest ponadto fukcja cat_to_number, która zamienia zmienna kategorialną na zmienną z mniejsza iloscią poziomow (stara się zrównoważyć buckety) 
+
  
 ## Modelowanie 
 Mozecie pominąć pliki modelowanie_* i przejść do modelowane_nowy_start_*. 
-1. modelowane_nowy_start_1.ipynb - tutaj jest więcej FE, ponieważ wyniki FE  w 1 tygodniu byly nie najlepsze. W poprzednich notebookach wszędzie braki danych zastępowałem mediana, Teraz chciałem wyprobować -1. 
 
-2. Przyjalem założenie: modeluje na 70% , oceniam na 30%. Wysyłam na kaggla na 100%. Podzial byl ze stratyfikacją na percentylach price_value i kategorii sprzedawcy. 
+0. Przyjalem założenie: modeluje na 70% , oceniam na 30%. Wysyłam na kaggla na 100%. Podzial byl ze stratyfikacją na percentylach price_value i kategorii sprzedawcy.
 
-3. Samo modelowanie. Bylo wiele prób, więc wskażę tylko ciekawsze reprezntatywne przyklady: 
+1. Samo modelowanie. Bylo wiele prób, więc wskażę tylko ciekawsze reprezntatywne przyklady: 
 - modelowane_nowy_start_9_selekcja : użylem xgbfir. Pondato uzywalem waznosci z RandomForrest. 
 - modelowane_nowy_start_11_xgb_hiperopt : po prostu hiperoptymalizacja wybranego modelu
 - modelowane_nowy_start_18_xgb_sprawdzenie_outlierow_Lcurv: przykladowa krzywa uczenia już zoptymalizowanego modelu . Tu po hiperopcie, ponieważ chcialem sprawdzić model przed wrzuceniem na kaggla, Zwykla sciezka to najpierw znalezienie modelu, krzywa, hiperopt, trenoowanie na calym train, 
 
-4. Zainspirowalem sie webinarem który polecal Vladimir. Bylko tam o losowym szukaniu cech. Napisalem kod który dla modelu z ok. 50, 70 i 100 zmiennymi losowal parę zmienych. Jeśli wynik nie pogorszyl się o deltę = 500  do 1500 (rożne proby), to zamienialem cechy. Zapisywałem zmiany i w jednej pętli nie mogly się powtórzyć (uporządkowane pary A -> B). Ale nad tym byla jeszcze jedna pętla.
+2. Zainspirowalem sie webinarem który polecal Vladimir. Bylko tam o losowym szukaniu cech. Napisalem kod który dla modelu z ok. 50, 70 i 100 zmiennymi losowal parę zmienych. Jeśli wynik nie pogorszyl się o deltę = 500  do 1500 (rożne proby), to zamienialem cechy. Zapisywałem zmiany i w jednej pętli nie mogly się powtórzyć (uporządkowane pary A -> B). Ale nad tym byla jeszcze jedna pętla.
 Jeśli zamiana była na lepsze, to nazywalem to Improvement, Jesli zamiana była na nieco gorsze , to nazywałem to Mutacją (w analogii do ewoliucji nie każda zmiana jest na lepsze, ale bez takich zamian na chwilowo na gorsze nie byloby ludzkości xD ). 
 Zwykle ten automat generowal coraz lepsze modele przez kila godzin. Było 50 - 90 estymatorów, więc każda proba to kilka sekund. Gdy nie bylo popraw przez kilka godzin, eksperyment przerywalłm i zaczynałem z innym modelem startowym i ilością zmennych (modele wybrane ręcznie z ważnosci cech). Funkcja train_and_submit automatycznie zapisywala wynik przy polepszeniu (nie mutacji), więc nawet jak serwer padł to wiedzialem od czego zacząć. Puszcałem to głownie w nocy, kiedy i tak spałem xD
 Przyklad: modelowane_nowy_start_14_xgb_search_parami_delta
 
-5. Zainspriowalem się też regresją krokową forward i backward. Tylko forward od modelu z 50 zmiennymi dzialal. modelowane_nowy_start_15_xgb_search_backward.ipynb i modelowane_nowy_start_15_xgb_search_forward.ipynb. 
+3. Zainspriowalem się też regresją krokową forward i backward. Tylko forward od modelu z 50 zmiennymi dzialal. modelowane_nowy_start_15_xgb_search_backward.ipynb i modelowane_nowy_start_15_xgb_search_forward.ipynb. 
 
 Ogolnie eksperymenty w 4 i 5 nie dawaly lepszych modeli niż najlepszy model na 120 zmiennych (public = 5539.63977 na 51 zm), ale wyniki byly bliskie, a liczyły sie na ~500 i ~900 estymatorach a nie na ~2000 więc życiowo były lepsze do pracy. Wiem to już po konkursie bo na skutek blędu jedna ze zmiennych była kolumna z modelem liczonym na calym train, co prowadziolo do trudnosci z oszacowaniem który model jest lepszy. Po jej usunieciu znalezione modele były OK.  
 Zauważyłem to po konkursie. 
