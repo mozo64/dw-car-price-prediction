@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 2522.7314130633035,
+    "r2_score": 0.9798027570559829,
+    "vars": "'created_at_unix', 'created_at_unix_na_mean', 'encoded_param_napęd_2', 'encoded_param_typ_2', 'feature_asr__kontrola_trakcji_', 'feature_czujnik_zmierzchu', 'feature_czujniki_parkowania_przednie', 'feature_czujniki_parkowania_tylne', 'feature_elektryczne_szyby_tylne', 'feature_elektrycznie_ustawiane_fotele', 'feature_isofix', 'feature_klimatyzacja_czterostrefowa', 'feature_klimatyzacja_dwustrefowa', 'feature_komputer_pokładowy', 'feature_ogranicznik_prędkości', 'feature_podgrzewana_przednia_szyba', 'feature_podgrzewane_przednie_siedzenia', 'feature_poduszka_powietrzna_pasażera', 'feature_poduszki_boczne_przednie', 'feature_poduszki_boczne_tylne', 'feature_radio_niefabryczne', 'feature_relingi_dachowe', 'feature_szyberdach', 'feature_tapicerka_welurowa', 'feature_tuner_tv', 'feature_wspomaganie_kierownicy', 'feature_światła_led', 'feature_światła_przeciwmgielne', 'feature_światła_xenonowe', 'model_8790', 'new_param_emisja_co2_cat', 'new_param_kategoria_cat', 'new_param_opłata_początkowa_cat', 'new_param_stan_cat', 'new_seller_name_cat', 'new_vin_security_cat', 'ogloszenie_rok', 'param_emisja_co2_2', 'param_leasing', 'param_miesięczna_rata_2', 'param_możliwość_finansowania', 'param_pierwsza_rejestracja_10_lat', 'param_pierwsza_rejestracja_ten_rok', 'param_przebieg', 'param_rok_produkcji', 'param_rok_produkcji_10_lat', 'param_rok_produkcji_poprzedni_rok', 'param_vat_discount', 'param_vat_free', 'param_wartość_wykupu_2', 'param_zarejestrowany_jako_zabytek'",
+    "best_params": {
+        "n_jobs": 12,
+        "n_estimators": 90,
+        "learning_rate": 0.1,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "18:27:21",
+    "model_end": "18:28:53",
+    "opis": ""
+}

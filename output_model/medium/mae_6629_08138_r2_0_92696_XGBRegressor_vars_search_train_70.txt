@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 6629.081378866423,
+    "r2_score": 0.9269648801668423,
+    "vars": "'encoded_param_rodzaj_paliwa_2', 'encoded_param_skrzynia_biegów_2', 'encoded_param_typ_2', 'feature_asystent_pasa_ruchu', 'feature_cd', 'feature_czujnik_zmierzchu', 'feature_hud__wyświetlacz_przezierny_', 'feature_podgrzewane_przednie_siedzenia', 'feature_relingi_dachowe', 'feature_system_start_stop', 'feature_szyberdach', 'feature_łopatki_zmiany_biegów', 'latitude', 'new_cat_seller_address', 'new_param_emisja_co2_cat', 'new_param_kategoria_cat', 'new_param_kod_silnika_cat', 'new_param_kolor_cat', 'new_param_kraj_pochodzenia_cat', 'new_param_liczba_pozostałych_rat_cat', 'new_param_marka_pojazdu_cat', 'new_param_miesięczna_rata_cat', 'new_param_model_pojazdu_cat', 'new_param_napęd_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_param_pierwsza_rejestracja_cat', 'new_param_rodzaj_paliwa_cat', 'new_param_stan_cat', 'new_param_typ_cat', 'new_param_vin_cat', 'new_param_wartość_wykupu_cat', 'new_param_wersja_cat', 'new_seller_wojewodzctwo_cat', 'new_vin_model_cat', 'new_vin_plant_cat', 'new_vin_security_cat', 'new_vin_where_cat', 'ogloszenie_dzien_tyg', 'ogloszenie_godzina', 'ogloszenie_miesiac', 'ogloszenie_rok', 'param_akryl__niemetalizowany_', 'param_bezwypadkowy', 'param_faktura_vat', 'param_filtr_cząstek_stałych', 'param_homologacja_ciężarowa', 'param_ile_lat_temu_produkcja', 'param_kierownica_po_prawej__anglik_', 'param_liczba_drzwi', 'param_liczba_pozostałych_rat_2', 'param_matowy', 'param_metalik', 'param_miesięczna_rata_2', 'param_moc', 'param_możliwość_finansowania', 'param_opłata_początkowa_2', 'param_pierwsza_rejestracja_10_lat', 'param_pierwsza_rejestracja_poprzedni_rok', 'param_pierwsza_rejestracja_ten_rok', 'param_pierwszy_właściciel', 'param_pojemność_skokowa', 'param_przebieg', 'param_rok_produkcji', 'param_rok_produkcji_10_lat', 'param_rok_produkcji_poprzedni_rok', 'param_rok_produkcji_ten_rok', 'param_tuning', 'param_uszkodzony', 'param_vat_discount', 'param_vat_free', 'param_vat_marża', 'param_vin_len', 'param_wartość_wykupu_2', 'param_zarejestrowany_jako_zabytek', 'param_zarejestrowany_w_polsce', 'price_currency_pln'",
+    "best_params": {
+        "n_jobs": 12,
+        "n_estimators": 70,
+        "learning_rate": 0.1,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "max_depth": 40
+    },
+    "model_start": "15:59:51",
+    "model_end": "16:00:05",
+    "opis": ""
+}

@@ -1,0 +1,20 @@
+{
+    "mean_absolute_error": 2532.2979602175715,
+    "r2_score": 0.9785344521761307,
+    "vars": "'encoded_param_napęd_2', 'encoded_param_rodzaj_paliwa_2', 'feature_asystent_parkowania', 'feature_centralny_zamek', 'feature_czujnik_deszczu', 'feature_elektrochromatyczne_lusterko_wsteczne', 'feature_elektryczne_szyby_tylne', 'feature_elektrycznie_ustawiane_fotele', 'feature_elektrycznie_ustawiane_lusterka', 'feature_hud__wyświetlacz_przezierny_', 'feature_klimatyzacja_manualna', 'feature_mp3', 'feature_nawigacja_gps', 'feature_odtwarzacz_dvd', 'feature_ogranicznik_prędkości', 'feature_ogrzewanie_postojowe', 'feature_podgrzewana_przednia_szyba', 'feature_podgrzewane_tylne_siedzenia', 'feature_poduszka_powietrzna_kierowcy', 'feature_poduszki_boczne_przednie', 'feature_poduszki_boczne_tylne', 'feature_przyciemniane_szyby', 'feature_radio_fabryczne', 'feature_regulowane_zawieszenie', 'feature_tapicerka_skórzana', 'feature_wielofunkcyjna_kierownica', 'feature_światła_led', 'feature_światła_przeciwmgielne', 'feature_światła_xenonowe', 'model_8790', 'new_param_emisja_co2_cat', 'new_param_kategoria_cat', 'new_param_rodzaj_paliwa_cat', 'new_param_skrzynia_biegów_cat', 'new_param_stan_cat', 'new_param_wersja_cat', 'new_seller_type_cat', 'new_seller_wojewodzctwo_cat', 'new_vin_portrait_cat', 'new_vin_security_cat', 'param_bezwypadkowy', 'param_faktura_vat', 'param_filtr_cząstek_stałych', 'param_liczba_miejsc_2', 'param_liczba_pozostałych_rat_2', 'param_miesięczna_rata_2', 'param_pierwsza_rejestracja_10_lat', 'param_pierwsza_rejestracja_date_na', 'param_przebieg', 'param_serwisowany_w_aso', 'param_vin_len'",
+    "best_params": {
+        "max_depth": 76,
+        "n_estimators": 90,
+        "colsample_bytree": 0.9813040194860939,
+        "learning_rate": 0.09195542719071997,
+        "subsample": 0.8407075722458663,
+        "random_state": 10000,
+        "min_child_weight": 23,
+        "reg_alpha": 1.8194939985101644,
+        "reg_lambda": 0.9083833027392559,
+        "objective": "reg:squarederror"
+    },
+    "model_start": "16:58:28",
+    "model_end": "16:58:45",
+    "opis": ""
+}

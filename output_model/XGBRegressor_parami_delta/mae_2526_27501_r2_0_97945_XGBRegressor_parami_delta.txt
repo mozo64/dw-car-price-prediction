@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 2526.275009567173,
+    "r2_score": 0.9794466214316757,
+    "vars": "'encoded_param_kolor_2', 'encoded_param_skrzynia_biegów_2', 'feature_asystent_parkowania', 'feature_czujnik_deszczu', 'feature_czujnik_zmierzchu', 'feature_dach_panoramiczny', 'feature_elektrochromatyczne_lusterko_wsteczne', 'feature_elektryczne_szyby_przednie', 'feature_elektrycznie_ustawiane_fotele', 'feature_esp__stabilizacja_toru_jazdy_', 'feature_gniazdo_sd', 'feature_hak', 'feature_klimatyzacja_czterostrefowa', 'feature_kurtyny_powietrzne', 'feature_mp3', 'feature_ogranicznik_prędkości', 'feature_ogrzewanie_postojowe', 'feature_podgrzewana_przednia_szyba', 'feature_podgrzewane_tylne_siedzenia', 'feature_poduszka_powietrzna_chroniąca_kolana', 'feature_poduszka_powietrzna_kierowcy', 'feature_poduszki_boczne_przednie', 'feature_radio_niefabryczne', 'feature_relingi_dachowe', 'feature_tuner_tv', 'feature_wspomaganie_kierownicy', 'feature_łopatki_zmiany_biegów', 'feature_światła_led', 'feature_światła_xenonowe', 'model_8790', 'new_cat_seller_address', 'new_param_opłata_początkowa_cat', 'new_param_typ_cat', 'new_param_wersja_cat', 'new_seller_wojewodzctwo_cat', 'param_faktura_vat', 'param_filtr_cząstek_stałych', 'param_liczba_drzwi', 'param_matowy', 'param_metalik', 'param_miesięczna_rata_2', 'param_opłata_początkowa_2', 'param_pierwsza_rejestracja_ten_rok', 'param_pierwszy_właściciel', 'param_rok_produkcji', 'param_rok_produkcji_10_lat', 'param_rok_produkcji_poprzedni_rok', 'param_rok_produkcji_ten_rok', 'param_wartość_wykupu_2', 'param_zarejestrowany_jako_zabytek', 'pln_to_eur'",
+    "best_params": {
+        "n_jobs": 12,
+        "n_estimators": 90,
+        "learning_rate": 0.1,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "16:06:22",
+    "model_end": "16:06:31",
+    "opis": "start=2604.46495618895, delta"
+}

@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 8158.776828720797,
+    "r2_score": 0.8955991429528751,
+    "vars": "'feature_bluetooth', 'feature_czujniki_parkowania_tylne', 'new_param_marka_pojazdu_cat', 'new_param_model_pojazdu_cat', 'new_param_opłata_początkowa_cat', 'new_param_skrzynia_biegów_cat', 'new_param_stan_cat', 'new_param_typ_cat', 'new_param_wersja_cat', 'new_seller_type_cat', 'new_vin_where_cat', 'param_faktura_vat', 'param_pierwsza_rejestracja_date_na', 'param_pojemność_skokowa', 'param_przebieg', 'param_rok_produkcji', 'param_serwisowany_w_aso', 'param_uszkodzony', 'param_vin_len', 'pln_to_eur'",
+    "best_params": {
+        "n_jobs": 8,
+        "n_estimators": 50,
+        "learning_rate": 0.3,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "09:36:19",
+    "model_end": "09:36:22",
+    "opis": ""
+}

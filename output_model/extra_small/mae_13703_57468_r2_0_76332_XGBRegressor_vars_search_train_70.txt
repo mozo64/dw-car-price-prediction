@@ -1,0 +1,15 @@
+{
+    "mean_absolute_error": 13703.574678904835,
+    "r2_score": 0.763324046216997,
+    "vars": "'new_param_emisja_co2_cat', 'new_param_kategoria_cat', 'new_param_kod_silnika_cat', 'new_param_kolor_cat', 'new_param_liczba_pozostałych_rat_cat', 'new_param_marka_pojazdu_cat', 'new_param_miesięczna_rata_cat', 'new_param_model_pojazdu_cat', 'new_param_napęd_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_param_pierwsza_rejestracja_cat', 'new_param_rodzaj_paliwa_cat', 'new_param_skrzynia_biegów_cat', 'new_param_stan_cat', 'new_param_typ_cat', 'new_param_vin_cat', 'new_param_wartość_wykupu_cat', 'new_param_wersja_cat', 'param_vin_len'",
+    "best_params": {
+        "n_estimators": 50,
+        "learning_rate": 0.3,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "07:04:14",
+    "model_end": "07:04:27",
+    "opis": ""
+}

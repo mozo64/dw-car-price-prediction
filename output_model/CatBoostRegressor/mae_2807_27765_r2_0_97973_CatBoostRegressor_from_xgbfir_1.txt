@@ -1,0 +1,14 @@
+{
+    "mean_absolute_error": 2807.277650953199,
+    "r2_score": 0.9797317145751269,
+    "vars": "'created_at_unix', 'encoded_param_rodzaj_paliwa_2', 'encoded_param_skrzynia_biegów_2', 'encoded_param_typ_2', 'feature_asr__kontrola_trakcji_', 'feature_cd', 'feature_centralny_zamek', 'feature_elektrycznie_ustawiane_fotele', 'feature_elektrycznie_ustawiane_lusterka', 'feature_gniazdo_sd', 'feature_isofix', 'feature_klimatyzacja_automatyczna', 'feature_klimatyzacja_manualna', 'feature_ogrzewanie_postojowe', 'feature_podgrzewane_tylne_siedzenia', 'feature_relingi_dachowe', 'feature_tapicerka_skórzana', 'feature_tempomat', 'feature_światła_led', 'feature_światła_przeciwmgielne', 'longitude', 'longitude_na_mean', 'model_8790', 'model_XGBRegressor_3293_22097_', 'new_param_kolor_cat', 'new_param_liczba_pozostałych_rat_cat', 'new_param_marka_pojazdu_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_param_wersja_cat', 'new_seller_name_cat', 'new_vin_flex_fuel_cat', 'new_vin_model_cat', 'new_vin_portrait_cat', 'new_vin_security_cat', 'ogloszenie_rok', 'param_bezwypadkowy', 'param_homologacja_ciężarowa', 'param_ile_lat_temu_produkcja', 'param_leasing', 'param_liczba_miejsc_2', 'param_liczba_pozostałych_rat_2', 'param_matowy', 'param_moc', 'param_perłowy', 'param_pierwsza_rejestracja_10_lat', 'param_przebieg', 'param_rok_produkcji', 'param_tuning', 'param_uszkodzony', 'param_vin_len'",
+    "best_params": {
+        "iterations": 200,
+        "depth": 8,
+        "random_state": 6950,
+        "silent": true
+    },
+    "model_start": "07:53:25",
+    "model_end": "07:53:35",
+    "opis": ""
+}

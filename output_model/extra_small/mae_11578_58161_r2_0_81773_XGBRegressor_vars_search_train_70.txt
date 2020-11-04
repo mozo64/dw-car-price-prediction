@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 11578.5816141254,
+    "r2_score": 0.8177313869333748,
+    "vars": "'feature_czujniki_parkowania_tylne', 'feature_elektrycznie_ustawiane_fotele', 'feature_gniazdo_sd', 'feature_nawigacja_gps', 'new_param_emisja_co2_cat', 'new_param_kod_silnika_cat', 'new_param_marka_pojazdu_cat', 'new_param_model_pojazdu_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_param_rodzaj_paliwa_cat', 'new_param_skrzynia_biegów_cat', 'new_param_stan_cat', 'new_param_typ_cat', 'new_param_wersja_cat', 'new_seller_type_cat', 'param_faktura_vat', 'param_pierwsza_rejestracja_date_na', 'param_tuning', 'param_uszkodzony'",
+    "best_params": {
+        "n_jobs": 8,
+        "n_estimators": 50,
+        "learning_rate": 0.3,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "09:33:51",
+    "model_end": "09:33:54",
+    "opis": ""
+}

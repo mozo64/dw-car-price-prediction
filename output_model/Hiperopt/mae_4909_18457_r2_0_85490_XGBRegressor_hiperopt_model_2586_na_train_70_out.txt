@@ -1,0 +1,20 @@
+{
+    "mean_absolute_error": 4909.184567229126,
+    "r2_score": 0.8549027853207849,
+    "vars": "'created_at_unix', 'encoded_param_rodzaj_paliwa_2', 'encoded_param_typ_2', 'feature_abs', 'feature_asr__kontrola_trakcji_', 'feature_bluetooth', 'feature_cd', 'feature_czujniki_parkowania_przednie', 'feature_elektrycznie_ustawiane_fotele', 'feature_elektrycznie_ustawiane_lusterka', 'feature_gniazdo_sd', 'feature_hud__wyświetlacz_przezierny_', 'feature_isofix', 'feature_klimatyzacja_automatyczna', 'feature_klimatyzacja_manualna', 'feature_ogrzewanie_postojowe', 'feature_podgrzewane_tylne_siedzenia', 'feature_relingi_dachowe', 'feature_tapicerka_skórzana', 'feature_tapicerka_welurowa', 'feature_światła_led', 'feature_światła_przeciwmgielne', 'feature_światła_xenonowe', 'features_all_sum', 'latitude_na_mean', 'longitude', 'longitude_na_mean', 'model_8790', 'new_param_kolor_cat', 'new_param_liczba_pozostałych_rat_cat', 'new_param_marka_pojazdu_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_param_rodzaj_paliwa_cat', 'new_param_wersja_cat', 'new_seller_name_cat', 'new_vin_flex_fuel_cat', 'new_vin_model_cat', 'new_vin_security_cat', 'param_bezwypadkowy', 'param_homologacja_ciężarowa', 'param_ile_lat_temu_produkcja', 'param_leasing', 'param_liczba_miejsc_2', 'param_liczba_pozostałych_rat_2', 'param_matowy', 'param_przebieg', 'param_rok_produkcji', 'param_tuning', 'param_uszkodzony', 'param_wartość_wykupu_2'",
+    "best_params": {
+        "max_depth": 66,
+        "n_estimators": 90,
+        "colsample_bytree": 0.7024039225585592,
+        "learning_rate": 0.2629670804857507,
+        "subsample": 0.5386186997479554,
+        "random_state": 3400,
+        "min_child_weight": 98,
+        "reg_alpha": 1.0940270857501144,
+        "reg_lambda": 0.2377880759783049,
+        "objective": "reg:squarederror"
+    },
+    "model_start": "22:28:25",
+    "model_end": "22:28:39",
+    "opis": "train_70_out, z modelu 2586.451733203424"
+}

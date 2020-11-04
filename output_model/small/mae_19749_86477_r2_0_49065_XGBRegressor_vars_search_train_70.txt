@@ -1,0 +1,15 @@
+{
+    "mean_absolute_error": 19749.864769256965,
+    "r2_score": 0.49065413727700824,
+    "vars": "'feature_abs', 'feature_alarm', 'feature_alufelgi', 'feature_asr__kontrola_trakcji_', 'feature_asystent_parkowania', 'feature_asystent_pasa_ruchu', 'feature_bluetooth', 'feature_cd', 'feature_centralny_zamek', 'feature_czujnik_deszczu', 'feature_czujnik_martwego_pola', 'feature_czujnik_zmierzchu', 'feature_czujniki_parkowania_przednie', 'feature_czujniki_parkowania_tylne', 'feature_dach_panoramiczny', 'feature_elektrochromatyczne_lusterka_boczne', 'feature_elektrochromatyczne_lusterko_wsteczne', 'feature_elektryczne_szyby_przednie', 'feature_elektryczne_szyby_tylne', 'feature_elektrycznie_ustawiane_fotele', 'feature_elektrycznie_ustawiane_lusterka', 'feature_esp__stabilizacja_toru_jazdy_', 'feature_gniazdo_sd', 'feature_gniazdo_usb', 'feature_hud__wyświetlacz_przezierny_', 'feature_immobilizer', 'feature_isofix', 'feature_kamera_cofania', 'feature_klimatyzacja_automatyczna', 'feature_klimatyzacja_czterostrefowa', 'feature_klimatyzacja_dwustrefowa', 'feature_klimatyzacja_manualna', 'feature_komputer_pokładowy', 'feature_kurtyny_powietrzne', 'feature_mp3', 'feature_nawigacja_gps', 'feature_odtwarzacz_dvd', 'feature_ogranicznik_prędkości', 'feature_ogrzewanie_postojowe', 'feature_podgrzewana_przednia_szyba', 'feature_podgrzewane_lusterka_boczne', 'feature_podgrzewane_przednie_siedzenia', 'feature_podgrzewane_tylne_siedzenia', 'feature_poduszka_powietrzna_chroniąca_kolana', 'feature_poduszka_powietrzna_kierowcy', 'feature_poduszka_powietrzna_pasażera', 'feature_poduszki_boczne_przednie', 'feature_poduszki_boczne_tylne', 'feature_przyciemniane_szyby', 'feature_radio_fabryczne', 'feature_radio_niefabryczne', 'feature_regulowane_zawieszenie', 'feature_relingi_dachowe', 'feature_system_start_stop', 'feature_szyberdach', 'feature_tapicerka_skórzana', 'feature_tapicerka_welurowa', 'feature_tempomat', 'feature_tempomat_aktywny', 'feature_tuner_tv', 'feature_wielofunkcyjna_kierownica', 'feature_wspomaganie_kierownicy', 'feature_zmieniarka_cd', 'feature_łopatki_zmiany_biegów', 'feature_światła_do_jazdy_dziennej', 'feature_światła_led', 'feature_światła_przeciwmgielne', 'feature_światła_xenonowe', 'param_akryl__niemetalizowany_', 'price_currency_pln'",
+    "best_params": {
+        "n_estimators": 50,
+        "learning_rate": 0.3,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "07:05:19",
+    "model_end": "07:05:39",
+    "opis": ""
+}

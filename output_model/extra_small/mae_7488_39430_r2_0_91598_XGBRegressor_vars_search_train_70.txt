@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 7488.394300335563,
+    "r2_score": 0.9159762601141125,
+    "vars": "'feature_alarm', 'feature_bluetooth', 'feature_czujnik_deszczu', 'feature_elektryczne_szyby_tylne', 'new_param_marka_pojazdu_cat', 'new_param_model_pojazdu_cat', 'new_param_opłata_początkowa_cat', 'new_param_stan_cat', 'new_param_typ_cat', 'new_param_wersja_cat', 'new_seller_type_cat', 'new_vin_where_cat', 'param_faktura_vat', 'param_moc', 'param_pojemność_skokowa', 'param_przebieg', 'param_rok_produkcji', 'param_uszkodzony', 'pln_to_eur', 'price_currency_pln'",
+    "best_params": {
+        "n_jobs": 8,
+        "n_estimators": 50,
+        "learning_rate": 0.3,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "09:37:06",
+    "model_end": "09:37:09",
+    "opis": ""
+}

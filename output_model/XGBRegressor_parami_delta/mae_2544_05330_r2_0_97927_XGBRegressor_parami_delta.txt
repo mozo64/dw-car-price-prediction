@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 2544.053296936851,
+    "r2_score": 0.9792706814239529,
+    "vars": "'created_at_unix', 'feature_alufelgi', 'feature_asr__kontrola_trakcji_', 'feature_bluetooth', 'feature_centralny_zamek', 'feature_czujnik_zmierzchu', 'feature_elektrycznie_ustawiane_fotele', 'feature_elektrycznie_ustawiane_lusterka', 'feature_gniazdo_sd', 'feature_gniazdo_usb', 'feature_immobilizer', 'feature_klimatyzacja_manualna', 'feature_komputer_pokładowy', 'feature_mp3', 'feature_nawigacja_gps', 'feature_ogrzewanie_postojowe', 'feature_podgrzewane_lusterka_boczne', 'feature_podgrzewane_przednie_siedzenia', 'feature_podgrzewane_tylne_siedzenia', 'feature_poduszka_powietrzna_kierowcy', 'feature_przyciemniane_szyby', 'feature_radio_fabryczne', 'feature_szyberdach', 'feature_tapicerka_skórzana', 'feature_tempomat', 'feature_tuner_tv', 'feature_wielofunkcyjna_kierownica', 'feature_światła_led', 'feature_światła_przeciwmgielne', 'model_8790', 'new_param_liczba_pozostałych_rat_cat', 'new_param_marka_pojazdu_cat', 'new_param_model_pojazdu_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_seller_type_cat', 'new_seller_wojewodzctwo_cat', 'new_vin_model_cat', 'new_vin_where_cat', 'ogloszenie_rok', 'param_faktura_vat', 'param_ile_lat_temu_produkcja', 'param_kierownica_po_prawej__anglik_', 'param_liczba_pozostałych_rat_2', 'param_matowy', 'param_metalik', 'param_moc', 'param_perłowy', 'param_przebieg', 'param_rok_produkcji_10_lat', 'param_serwisowany_w_aso'",
+    "best_params": {
+        "n_jobs": 12,
+        "n_estimators": 90,
+        "learning_rate": 0.1,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "13:53:00",
+    "model_end": "13:53:10",
+    "opis": "start=2604.46495618895, delta"
+}

@@ -1,0 +1,20 @@
+{
+    "mean_absolute_error": 2517.438650612934,
+    "r2_score": 0.9777632072035041,
+    "vars": "'encoded_param_kolor_2', 'encoded_param_napęd_2', 'encoded_param_rodzaj_paliwa_2', 'feature_asystent_pasa_ruchu', 'feature_centralny_zamek', 'feature_czujnik_deszczu', 'feature_elektrycznie_ustawiane_fotele', 'feature_elektrycznie_ustawiane_lusterka', 'feature_gniazdo_aux', 'feature_hud__wyświetlacz_przezierny_', 'feature_immobilizer', 'feature_kamera_cofania', 'feature_mp3', 'feature_nawigacja_gps', 'feature_odtwarzacz_dvd', 'feature_ogrzewanie_postojowe', 'feature_podgrzewana_przednia_szyba', 'feature_podgrzewane_tylne_siedzenia', 'feature_poduszka_powietrzna_chroniąca_kolana', 'feature_poduszka_powietrzna_kierowcy', 'feature_poduszki_boczne_tylne', 'feature_przyciemniane_szyby', 'feature_radio_fabryczne', 'feature_regulowane_zawieszenie', 'feature_szyberdach', 'feature_tapicerka_skórzana', 'feature_tuner_tv', 'feature_wielofunkcyjna_kierownica', 'feature_światła_led', 'model_8790', 'new_param_emisja_co2_cat', 'new_param_kategoria_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_param_rodzaj_paliwa_cat', 'new_param_vin_cat', 'new_param_wartość_wykupu_cat', 'new_vin_flex_fuel_cat', 'new_vin_portrait_cat', 'new_vin_where_cat', 'ogloszenie_dni_wisi', 'ogloszenie_miesiac', 'param_faktura_vat', 'param_filtr_cząstek_stałych', 'param_kierownica_po_prawej__anglik_', 'param_metalik', 'param_moc', 'param_przebieg', 'param_rok_produkcji_10_lat', 'param_serwisowany_w_aso', 'price_currency_pln'",
+    "best_params": {
+        "max_depth": 79,
+        "n_estimators": 90,
+        "colsample_bytree": 0.9550824524069286,
+        "learning_rate": 0.07943996709465337,
+        "subsample": 0.6735758768571822,
+        "random_state": 3000,
+        "min_child_weight": 76,
+        "reg_alpha": 1.5689324101740485,
+        "reg_lambda": 0.45810834508379683,
+        "objective": "reg:squarederror"
+    },
+    "model_start": "17:56:04",
+    "model_end": "17:56:17",
+    "opis": ""
+}

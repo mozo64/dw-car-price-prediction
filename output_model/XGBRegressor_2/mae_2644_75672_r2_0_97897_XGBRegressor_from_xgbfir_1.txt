@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 2644.7567187091176,
+    "r2_score": 0.9789674933895451,
+    "vars": "'created_at_unix', 'encoded_param_rodzaj_paliwa_2', 'encoded_param_typ_2', 'feature_asr__kontrola_trakcji_', 'feature_asystent_parkowania', 'feature_bluetooth', 'feature_cd', 'feature_centralny_zamek', 'feature_elektrycznie_ustawiane_fotele', 'feature_elektrycznie_ustawiane_lusterka', 'feature_gniazdo_sd', 'feature_isofix', 'feature_klimatyzacja_automatyczna', 'feature_klimatyzacja_manualna', 'feature_ogrzewanie_postojowe', 'feature_podgrzewane_tylne_siedzenia', 'feature_relingi_dachowe', 'feature_tapicerka_skórzana', 'feature_tempomat', 'feature_światła_led', 'feature_światła_przeciwmgielne', 'latitude', 'longitude', 'model_8790', 'new_param_kolor_cat', 'new_param_liczba_pozostałych_rat_cat', 'new_param_marka_pojazdu_cat', 'new_param_model_pojazdu_cat', 'new_param_oferta_od_cat', 'new_param_opłata_początkowa_cat', 'new_param_wersja_cat', 'new_seller_name_cat', 'new_vin_flex_fuel_cat', 'new_vin_model_cat', 'new_vin_portrait_cat', 'new_vin_security_cat', 'ogloszenie_rok', 'param_bezwypadkowy', 'param_filtr_cząstek_stałych', 'param_homologacja_ciężarowa', 'param_ile_lat_temu_produkcja', 'param_liczba_miejsc_2', 'param_liczba_pozostałych_rat_2', 'param_matowy', 'param_moc', 'param_perłowy', 'param_pierwsza_rejestracja_10_lat', 'param_pierwsza_rejestracja_ten_rok', 'param_przebieg', 'param_serwisowany_w_aso', 'param_tuning'",
+    "best_params": {
+        "n_jobs": 12,
+        "n_estimators": 90,
+        "learning_rate": 0.1,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "07:59:45",
+    "model_end": "07:59:52",
+    "opis": ""
+}

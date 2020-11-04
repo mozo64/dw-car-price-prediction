@@ -1,0 +1,16 @@
+{
+    "mean_absolute_error": 12736.689288799691,
+    "r2_score": 0.7919439326098551,
+    "vars": "'feature_asystent_parkowania', 'feature_poduszka_powietrzna_pasażera', 'feature_światła_przeciwmgielne', 'new_param_kod_silnika_cat', 'new_param_liczba_pozostałych_rat_cat', 'new_param_marka_pojazdu_cat', 'new_param_miesięczna_rata_cat', 'new_param_model_pojazdu_cat', 'new_param_napęd_cat', 'new_param_oferta_od_cat', 'new_param_rodzaj_paliwa_cat', 'new_param_skrzynia_biegów_cat', 'new_param_stan_cat', 'new_param_typ_cat', 'new_param_vin_cat', 'new_param_wartość_wykupu_cat', 'new_param_wersja_cat', 'param_leasing', 'param_liczba_miejsc_2', 'param_uszkodzony'",
+    "best_params": {
+        "n_jobs": 8,
+        "n_estimators": 50,
+        "learning_rate": 0.3,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "09:29:56",
+    "model_end": "09:30:06",
+    "opis": ""
+}

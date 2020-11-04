@@ -1,0 +1,17 @@
+ujdzie
+{
+    "mean_absolute_error": 2530.5062369070815,
+    "r2_score": 0.9792920077985906,
+    "vars": "'encoded_param_napęd_2', 'encoded_param_typ_2', 'feature_alarm', 'feature_alufelgi', 'feature_centralny_zamek', 'feature_czujnik_zmierzchu', 'feature_elektrochromatyczne_lusterko_wsteczne', 'feature_esp__stabilizacja_toru_jazdy_', 'feature_gniazdo_usb', 'feature_hak', 'feature_hud__wyświetlacz_przezierny_', 'feature_klimatyzacja_dwustrefowa', 'feature_kurtyny_powietrzne', 'feature_nawigacja_gps', 'feature_odtwarzacz_dvd', 'feature_ogrzewanie_postojowe', 'feature_podgrzewane_lusterka_boczne', 'feature_podgrzewane_przednie_siedzenia', 'feature_poduszka_powietrzna_kierowcy', 'feature_regulowane_zawieszenie', 'feature_szyberdach', 'feature_tapicerka_skórzana', 'feature_tapicerka_welurowa', 'feature_tempomat', 'feature_tempomat_aktywny', 'feature_tuner_tv', 'feature_zmieniarka_cd', 'feature_łopatki_zmiany_biegów', 'feature_światła_do_jazdy_dziennej', 'model_8790', 'new_param_kategoria_cat', 'new_param_liczba_pozostałych_rat_cat', 'new_param_oferta_od_cat', 'new_param_skrzynia_biegów_cat', 'new_param_typ_cat', 'new_param_wartość_wykupu_cat', 'new_vin_plant_cat', 'new_vin_portrait_cat', 'new_vin_security_cat', 'new_vin_where_cat', 'ogloszenie_dzien_tyg', 'param_akryl__niemetalizowany_', 'param_emisja_co2_2', 'param_liczba_pozostałych_rat_2', 'param_matowy', 'param_perłowy', 'param_pierwsza_rejestracja_ten_rok', 'param_pierwszy_właściciel', 'param_rok_produkcji_10_lat', 'param_vin_len', 'param_zarejestrowany_w_polsce'",
+    "best_params": {
+        "n_jobs": 12,
+        "n_estimators": 90,
+        "learning_rate": 0.1,
+        "subsample": 0.5,
+        "colsample_bytree": 0.9,
+        "max_depth": 10
+    },
+    "model_start": "14:55:34",
+    "model_end": "14:55:44",
+    "opis": "start=2604.46495618895, delta"
+}

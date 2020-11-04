@@ -1,0 +1,19 @@
+{
+    "mean_absolute_error": 6632.808648738534,
+    "r2_score": 0.9262137759306548,
+    "vars": "encoded_price_currency | new_param_rok-produkcji | new_param_przebieg | new_param_moc | new_param_pojemność-skokowa | new_param_liczba-drzwi | new_param_liczba-miejsc | new_param_serwisowany-w-aso | new_param_pierwszy-właściciel | new_param_bezwypadkowy | new_param_zarejestrowany-w-polsce | new_param_możliwość-finansowania | new_param_leasing-concession | new_param_metalik | new_param_perłowy | new_param_akryl-(niemetalizowany) | encoded_new_param_typ | encoded_new_param_kraj_pochodzenia | encoded_new_param_rodzaj_paliwa | encoded_new_param_skrzynia_biegów | encoded_new_param_napęd | encoded_new_param_kolor | encoded_seller_type | encoded_seller_name | encoded_new_param_marka_pojazdu | encoded_new_param_model_pojazdu | encoded_new_param_wersja_pojazdu | encoded_new_param_kod_silnika | encoded_seller_wojewodzctwo | mca_0 | mca_1 | mca_2 | mca_3 | mca_4 | mca_5 | mca_6 | mca_7 | mca_8 | mca_9 | mca_10 | mca_11 | mca_12 | mca_13 | mca_14 | mca_15 | mca_16 | mca_17 | mca_18 | mca_19 | mca_20 | mca_21 | mca_22 | mca_23 | mca_24",
+    "best_params": {
+        "n_estimators": 900,
+        "learning_rate": 0.1,
+        "subsample": 0.923403370465418,
+        "colsample_bytree": 0.8797393544001986,
+        "max_depth": 10,
+        "min_child_weight": 100,
+        "reg_alpha": 1.1048264246167496,
+        "reg_lambda": 0.7451037079565321,
+        "random_state": 6950
+    },
+    "model_start": "22:31:16",
+    "model_end": "22:39:15",
+    "opis": "testuje rozne n_estimators"
+}

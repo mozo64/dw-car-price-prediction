@@ -1,0 +1,1 @@
+"Lepszy model z cechami wrzucaymi wg waznosci"
