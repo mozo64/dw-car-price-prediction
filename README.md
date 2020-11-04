@@ -1,5 +1,5 @@
 # dw-car-price-prediction
-## Readme v1.4
+## Readme v1.4.1
 
 Zadanie konkursowe na https://www.kaggle.com/c/dw-car-price-prediction/data
 
@@ -80,7 +80,7 @@ Jest dość przypadkowy, zanim jeszcze zacząłem na dobre sprawdzanie ważnosci
 
 ## Uwagi końcowe
 - Ciekawe że już po konkursie przeliczylem go na n_estimators": 3879  i public score = 5424.56438. Model byl z piątku i na serwerze było dużo osób, nie chciałem liczyć tak dużego modelu - ten ~4 tys liczyl się godzinę i 20 min (!).  A na 10 tys liczyl się juz 5 godzin, a wynik byl 5402.46542. 
-- Można używać jak ofeatura inny model (np CatBoost czy lasy), o ile sam jest prognozwany na nie calym zbiorze (np train_70), a jako zmienna wchodzi jako predykcja dla total = train_70 + train_30 + test). Ważny jest dobry podzial train na 2 części
+- Można używać jako featura inny model, ale ostrożnie (np CatBoost czy lasy), o ile sam jest prognozwany na nie calym zbiorze (np train_70), a jako zmienna wchodzi jako predykcja dla total = train_70 + train_30 + test). Ważny jest dobry podzial train na 2 części
 - Nie dzialalo u mnie ELIC ani zmiana fukcji score w xgboost
 - Nie widziałem poprawy po usunięciu outlierow w train_70
 - Nie zdążylem opracować powtórzeń ogłoszen (niektóre byly ponawiane)
