@@ -1,5 +1,5 @@
 # dw-car-price-prediction
-## Readme v1.2
+## Readme v1.3
 
 Zadanie konkursowe na https://www.kaggle.com/c/dw-car-price-prediction/data
 
